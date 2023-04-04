@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 /**
  * 1) Реализовать подгрузку списка по кнопке
  * 2) Реализовать поиск по загруженным данным
+ * 3) Реализовать первую загрузку уже с данынми на странице
  */
 type Passenger = { name: string };
 const Home: NextPage = () => {
